@@ -1,0 +1,20 @@
+server:
+  port: 8989   #指定端口号
+  context-path: /sb  #指定对应项目名
+  jsp-servlet:
+    init-parameters:
+      development: true          #开启JSP的热部署
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource  #Druid连接池
+    driver-class-name: com.mysql.jdbc.Driver      #Mysql的驱动
+    url: jdbc:mysql://localhost:3306/springboot   #URL
+    username: root
+    password: root
+  mvc:
+    view:
+      prefix: /                     #视图解析器
+      suffix: .jsp
+mybatis:
+  type-aliases-package: com.baizhi.entity   #包中的类起别名
+  mapper-locations: classpath:com/baizhi/dao/*Mapper.xml  #Mapper文件注册

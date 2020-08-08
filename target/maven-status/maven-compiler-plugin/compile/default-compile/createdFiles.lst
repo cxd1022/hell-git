@@ -1,0 +1,4 @@
+com\baizhi\action\UserAction.class
+com\baizhi\service\UserServiceImpl.class
+com\baizhi\interceptor\InterceptorConfig.class
+com\baizhi\service\UserService.class
