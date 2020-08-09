@@ -25,7 +25,7 @@ public class TestDAO {
         List<User> users = userDAO.selectAll();
         for (User user : users) {
             System.out.println(user);
-            System.out.println("22222");
+            System.out.println("222223333333333333333333333");
         }
     }
 }
