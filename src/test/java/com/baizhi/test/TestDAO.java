@@ -26,6 +26,7 @@ public class TestDAO {
         for (User user : users) {
             System.out.println(user);
             System.out.println("2222222222222224444444444444444444422");
+             System.out.println("远程修改");
         }
     }
 }
